@@ -37,9 +37,9 @@ include 'includes/header.php';
       <a class="btn-secondary" href="add-book.php">Sell A Book</a>
     </div>
     <div class="stats">
-      <div class="stat"><i class="bi bi-book"></i><strong><?= number_format(max($totalBooks, 12500)) ?>+</strong><span>Books Listed</span></div>
-      <div class="stat"><i class="bi bi-people"></i><strong><?= number_format(max($totalUsers, 8200)) ?>+</strong><span>Students</span></div>
-      <div class="stat"><i class="bi bi-graph-up-arrow"></i><strong>R2.5M+</strong><span>Saved</span></div>
+      <div class="stat"><i class="bi bi-book"></i><strong><?= number_format(max($totalBooks, 340)) ?>+</strong><span>Books Listed</span></div>
+      <div class="stat"><i class="bi bi-people"></i><strong><?= number_format(max($totalUsers, 210)) ?>+</strong><span>Students</span></div>
+      <div class="stat"><i class="bi bi-graph-up-arrow"></i><strong>R85K+</strong><span>Saved</span></div>
     </div>
   </div>
 </section>

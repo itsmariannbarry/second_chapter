@@ -48,7 +48,7 @@ include 'includes/header.php';
   <form class="form-card wide" method="post" enctype="multipart/form-data">
     <p class="eyebrow">My Bookshelf</p><h1>Sell A Book</h1><p class="hint">Add your textbook details. New listings are reviewed by The Librarian's Office before appearing publicly.</p>
     <?php if($errors): ?><div class="error-list"><?php foreach($errors as $e): ?><p><?= clean($e) ?></p><?php endforeach; ?></div><?php endif; ?>
-    <div class="upload-drop field full"><i class="bi bi-cloud-arrow-up"></i><p><strong>Drag your textbook image here</strong> or choose a file below.</p><input type="file" name="book_image" accept="image/*"><div class="bookshelf-preview"></div></div>
+    <div class="upload-drop field full"><i class="bi bi-cloud-arrow-up"></i><p><strong>Drag your textbook image here</strong> or choose a file below.</p><input type="file" name="book_image" accept="image/*"></div>
     <div class="form-grid">
       <div class="field"><label>Book Title *</label><input name="title" value="<?= clean($_POST['title'] ?? '') ?>" required></div>
       <div class="field"><label>Author *</label><input name="author" value="<?= clean($_POST['author'] ?? '') ?>" required></div>
